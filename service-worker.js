@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/EyeCatche/precache-manifest.f9268b8bf24cdcd9584281d4a04fec80.js"
+  "/EyeCatcher/precache-manifest.c67ae2593f39897c3da0bf0e10a29268.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/EyeCatche/index.html", {
+workbox.routing.registerNavigationRoute("/EyeCatcher/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
